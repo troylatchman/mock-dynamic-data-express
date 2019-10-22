@@ -22,6 +22,16 @@ const FIs = [
                         value: false
                     },
                 ]
+            },
+            {
+                name: 'travelStrategy',
+                variables: [
+                    {
+                        key: 'fee',
+                        type: 'string',
+                        value: '2.00'
+                    }
+                ]
             }
 
         ]
