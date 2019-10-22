@@ -1,6 +1,6 @@
 const FIs = [
     {
-        clientId: 123,
+        clientId: 1,
         processes: [
 
             {
@@ -27,7 +27,7 @@ const FIs = [
         ]
     },
     {
-        clientId: 456,
+        clientId: 2,
         processes: [
 
             {
@@ -37,6 +37,28 @@ const FIs = [
                         key: 'firstName',
                         type: 'string',
                         value: 'Alice'
+                    }
+                ]
+            }
+
+        ]
+    },
+    {
+        clientId: 3,
+        processes: [
+
+            {
+                name: 'lostStolen',
+                variables: [
+                    {
+                        key: 'name',
+                        type: 'string',
+                        value: 'Bob'
+                    },
+                    {
+                        key: 'age',
+                        type: 'number',
+                        value: 22
                     }
                 ]
             }
